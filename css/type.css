@@ -4,8 +4,8 @@
 @import url('/type/font-lato-bold.css');
 @import url('/type/font-lato-italic.css');
 @import url('/type/font-md-io.css');
-@import url('/type/fontawesome-pro/css/all.css');
-@import url('/profiles/icons/omg.lol-icons.css');
+@import url('https://github.com/frankramblings/Font-Awesome/blob/d02961b018153506364077343b0edcde0a39d27e/css/all.css');
+@import url('/profiles/icons/icons.css');
 * {
 	text-rendering: optimizeLegibility;
 }
