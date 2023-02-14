@@ -9,7 +9,7 @@ Version: 1.0
 Description: Dark theme with a touch of purple. Adapted from the Dracula color scheme by @zenorocha
 */
 
-@import url('https://cdn.cache.lol/css/type.css');
+@import url('https://raw.githubusercontent.com/frankramblings/frankramblings.github.io/css/css/type.css');
 
 :root {
 	--background-color: #282a36;
