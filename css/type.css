@@ -1,0 +1,11 @@
+@import url('/type/font-honey.css');
+/*@import url('/type/atkinson-hyperlegible/atkinson-hyperlegible.css');*/
+@import url('/type/font-lato-regular.css');
+@import url('/type/font-lato-bold.css');
+@import url('/type/font-lato-italic.css');
+@import url('/type/font-md-io.css');
+@import url('/type/fontawesome-pro/css/all.css');
+@import url('/profiles/icons/omg.lol-icons.css');
+* {
+	text-rendering: optimizeLegibility;
+}
