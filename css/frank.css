@@ -20,6 +20,16 @@ body {
 	overflow-wrap: break-word;
 }
 
+main {
+	display: block;
+	max-width: 30em;
+	border-radius: 1em;
+	margin: 0 auto;
+	text-align: center;
+	background: rgba(0, 0, 0, .4);
+	padding: 2em;
+}
+
 h1 {
 	margin: 0;
 }
@@ -117,5 +127,5 @@ hr {
 	body {
 		font-size: 1em;
 		padding: 1em;
-
+	}
 }
