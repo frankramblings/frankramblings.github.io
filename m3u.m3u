@@ -1,0 +1,99 @@
+#EXTM3U
+#EXTINF:-1 tvg-ID="ABC 7 NEW YORK" tvg-name="ABC 7 NEW YORK NY" tvg-logo="http://heatv.net/logo$/abc.png" group-title="ABC CHANNELS",ABC 7 NEW YORK NY 
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1598.ts
+#EXTINF:-1 tvg-ID="ABC 5 BOSTON" tvg-name="ABC 5 BOSTON MA" tvg-logo="http://heatv.net/logo$/abc.png" group-title="ABC CHANNELS",ABC 5 BOSTON MA http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1431.ts
+#EXTINF:-1 tvg-ID="CBS 4 BOSTON" tvg-name="CBS 4 BOSTON MA" tvg-logo="http://heatv.net/logo$/cbs.png" group-title="CBS CHANNELS",CBS 4 BOSTON MA http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/33.ts
+#EXTINF:-1 tvg-ID="FOX 25 BOSTON" tvg-name="FOX 25 BOSTON MA" tvg-logo="http://heatv.net/logo$/fox.png" group-title="FOX CHANNELS",FOX 25 BOSTON MA
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/443.ts
+#EXTINF:-1 tvg-ID="NBC 10 BOSTON" tvg-name="NBC 10 BOSTON MA" tvg-logo="http://heatv.net/logo$/nbc.png" group-title="NBC CHANNELS",NBC 10 BOSTON MA
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/480.ts
+#EXTINF:-1 tvg-ID="WPIX" tvg-name="PIX 11" tvg-logo="http://heatv.net/logo/pix11.png" group-title="ENTERTAINMENT CHANNELS",PIX 11
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1497.ts
+#EXTINF:-1 tvg-ID="YES NETWORK" tvg-name="YES NETWORK" tvg-logo="http://heatv.net/logo/yes.png" group-title="SPORTS CHANNELS",YES NETWORK
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/236.ts
+#EXTINF:-1 tvg-ID="" tvg-name="MLB 1 |" tvg-logo="http://heatv.net/logo/mlbei.png" group-title="MLB EXTRA INNING",MLB 1
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/546.ts
+#EXTINF:-1 tvg-ID="" tvg-name="MLB 2 |" tvg-logo="http://heatv.net/logo/mlbei.png" group-title="MLB EXTRA INNING",MLB 2
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/549.ts
+#EXTINF:-1 tvg-ID="BBC One HD" tvg-name="UK | BBC 1" tvg-logo="http://heatv.net/logo/bbc1.png" group-title="UK CHANNELS",UK | BBC 1
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1084.ts
+#EXTINF:-1 tvg-ID="BBC Two HD" tvg-name="UK | BBC 2" tvg-logo="http://heatv.net/logo/bbc2.png" group-title="UK CHANNELS",UK | BBC 2
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1085.ts
+#EXTINF:-1 tvg-ID="BBC NEWS" tvg-name="UK | BBC News" tvg-logo="http://heatv.net/logo/bbcnews.png" group-title="UK CHANNELS",UK | BBC News
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1086.ts
+#EXTINF:-1 tvg-ID="Channel 4" tvg-name="UK | Channel 4" tvg-logo="http://heatv.net/logo/channel4.png" group-title="UK CHANNELS",UK | Channel 4
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1098.ts
+#EXTINF:-1 tvg-ID="" tvg-name="24/7 SMALLVILLE" tvg-logo="http://www.gstatic.com/tv/thumb/tvbanners/184732/p184732_b_v8_aa.jpg" group-title="24/7 SHOWS",24/7 SMALLVILLE
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1420.ts
+#EXTINF:-1 tvg-ID="" tvg-name="24/7 STAR TREK NEXT GENERATION" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDViYjAyZWUtNGQxMy00MDUyLTlkZTAtOWNkY2M5ZTk5MTE5XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg" group-title="24/7 SHOWS",24/7 STAR TREK NEXT GENERATION
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1421.ts
+#EXTINF:-1 tvg-ID="" tvg-name="24/7 STAR TREK ORIGINAL SERIES" tvg-logo="http://www.gstatic.com/tv/thumb/tvbanners/183885/p183885_b_v8_aj.jpg" group-title="24/7 SHOWS",24/7 STAR TREK ORIGINAL SERIES
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1422.ts
+#EXTINF:-1 tvg-ID="" tvg-name="24/7 STAR WARS" tvg-logo="https://static.posters.cz/image/750/plakatok/star-wars-a-new-hope-one-sheet-i28733.jpg" group-title="24/7 SHOWS",24/7 STAR WARS
+http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1423.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB NETWORK" tvg-logo="" group-title="MLB",MLB NETWORK
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1221
+#EXTINF:-1 tvg-id="" tvg-name="MLB 1: AWAY" tvg-logo="" group-title="MLB",MLB 1: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1222
+#EXTINF:-1 tvg-id="" tvg-name="MLB 1: ASTROS @ YANKEES 7:08PM EST" tvg-logo="" group-title="MLB",MLB 1: ASTROS @ YANKEES 7:08PM EST
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1223
+#EXTINF:-1 tvg-id="" tvg-name="MLB 2: AWAY" tvg-logo="" group-title="MLB",MLB 2: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1224
+#EXTINF:-1 tvg-id="" tvg-name="MLB 2:" tvg-logo="" group-title="MLB",MLB 2:
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1225
+#EXTINF:-1 tvg-id="" tvg-name="MLB 3: AWAY" tvg-logo="" group-title="MLB",MLB 3: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1226
+#EXTINF:-1 tvg-id="" tvg-name="MLB 3: HOME" tvg-logo="" group-title="MLB",MLB 3: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1227
+#EXTINF:-1 tvg-id="" tvg-name="MLB 4: AWAY" tvg-logo="" group-title="MLB",MLB 4: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1228
+#EXTINF:-1 tvg-id="" tvg-name="MLB 4: HOME" tvg-logo="" group-title="MLB",MLB 4: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1229
+#EXTINF:-1 tvg-id="" tvg-name="MLB 5: AWAY" tvg-logo="" group-title="MLB",MLB 5: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1230
+#EXTINF:-1 tvg-id="" tvg-name="MLB 5: HOME" tvg-logo="" group-title="MLB",MLB 5: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1231
+#EXTINF:-1 tvg-id="" tvg-name="MLB 6: AWAY" tvg-logo="" group-title="MLB",MLB 6: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1232
+#EXTINF:-1 tvg-id="" tvg-name="MLB 6: HOME" tvg-logo="" group-title="MLB",MLB 6: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1233
+#EXTINF:-1 tvg-id="" tvg-name="MLB 7: AWAY" tvg-logo="" group-title="MLB",MLB 7: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1234
+#EXTINF:-1 tvg-id="" tvg-name="MLB 7: HOME" tvg-logo="" group-title="MLB",MLB 7: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1235
+#EXTINF:-1 tvg-id="" tvg-name="MLB 8: AWAY" tvg-logo="" group-title="MLB",MLB 8: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1236
+#EXTINF:-1 tvg-id="" tvg-name="MLB 8: HOME" tvg-logo="" group-title="MLB",MLB 8: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1237
+#EXTINF:-1 tvg-id="" tvg-name="MLB 9: AWAY" tvg-logo="" group-title="MLB",MLB 9: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1238
+#EXTINF:-1 tvg-id="" tvg-name="MLB 9: HOME" tvg-logo="" group-title="MLB",MLB 9: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1239
+#EXTINF:-1 tvg-id="" tvg-name="MLB 10: AWAY" tvg-logo="" group-title="MLB",MLB 10: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1240
+#EXTINF:-1 tvg-id="" tvg-name="MLB 10: HOME" tvg-logo="" group-title="MLB",MLB 10: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1241
+#EXTINF:-1 tvg-id="" tvg-name="MLB 11: AWAY" tvg-logo="" group-title="MLB",MLB 11: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1242
+#EXTINF:-1 tvg-id="" tvg-name="MLB 11: HOME" tvg-logo="" group-title="MLB",MLB 11: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1243
+#EXTINF:-1 tvg-id="" tvg-name="MLB 12: AWAY" tvg-logo="" group-title="MLB",MLB 12: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1244
+#EXTINF:-1 tvg-id="" tvg-name="MLB 12: HOME" tvg-logo="" group-title="MLB",MLB 12: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1245
+#EXTINF:-1 tvg-id="" tvg-name="MLB 13: AWAY" tvg-logo="" group-title="MLB",MLB 13: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1246
+#EXTINF:-1 tvg-id="" tvg-name="MLB 13: HOME" tvg-logo="" group-title="MLB",MLB 13: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1247
+#EXTINF:-1 tvg-id="" tvg-name="MLB 14: AWAY" tvg-logo="" group-title="MLB",MLB 14: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1248
+#EXTINF:-1 tvg-id="" tvg-name="MLB 14: HOME" tvg-logo="" group-title="MLB",MLB 14: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1249
+#EXTINF:-1 tvg-id="" tvg-name="MLB 15: AWAY" tvg-logo="" group-title="MLB",MLB 15: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1250
+#EXTINF:-1 tvg-id="" tvg-name="MLB 15: HOME" tvg-logo="" group-title="MLB",MLB 15: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1251
+#EXTINF:-1 tvg-id="" tvg-name="MLB 16: AWAY" tvg-logo="" group-title="MLB",MLB 16: AWAY
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1252
+#EXTINF:-1 tvg-id="" tvg-name="MLB 16: HOME" tvg-logo="" group-title="MLB",MLB 16: HOME
+http://professorx.me:80/PeterEmbyRestream2019/Ymns38jfoll21ASQAAD/1253
