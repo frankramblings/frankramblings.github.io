@@ -1,0 +1,42 @@
+[
+  {
+    "name": "sec-ch-ua",
+    "value": "Not A Brand;v=99, Chromium;v=112"
+  },
+  {
+    "name": "DNT",
+    "value": "1"
+  },
+  {
+    "name": "sec-ch-ua-mobile",
+    "value": "?0"
+  },
+  {
+    "name": "User-Agent",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+  },
+  {
+    "name": "sec-ch-ua-platform",
+    "value": "macOS"
+  },
+  {
+    "name": "Accept",
+    "value": "*/*"
+  },
+  {
+    "name": "Sec-Fetch-Site",
+    "value": "cross-site"
+  },
+  {
+    "name": "Sec-Fetch-Mode",
+    "value": "cors"
+  },
+  {
+    "name": "Sec-Fetch-Dest",
+    "value": "empty"
+  },
+  {
+    "name": "sec-gpc",
+    "value": "1"
+  }
+]
