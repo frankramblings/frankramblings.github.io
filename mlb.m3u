@@ -1,4 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="MLB 1" tvg-name="MLB 1" tvg-logo="channel_logo_url",MLB 1
-https://ed-t3.edghst.me/plyvivo/b0904a50naxi6u4iseba/chunklist.m3u8
-#EXT-X-KEY:METHOD=AES-128,URI="https://key.seckeyserv.me/b0904a50naxi6u4iseba/1681841013",IV=0x7ae3644bbb128e6c275ecb189ce553b2,KEYFORMAT="identity",KEYFORMATVERSIONS="1"
