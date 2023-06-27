@@ -1,7 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-ID="ABC 5 BOSTON" tvg-name="ABC 5 BOSTON MA" tvg-logo="http://heatv.net/logo$/abc.png" group-title="ABC CHANNELS",ABC 5 BOSTON MA http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/1431.ts
-#EXTINF:-1 tvg-ID="CBS 4 BOSTON" tvg-name="CBS 4 BOSTON MA" tvg-logo="http://heatv.net/logo$/cbs.png" group-title="CBS CHANNELS",CBS 4 BOSTON MA http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/33.ts
-#EXTINF:-1 tvg-ID="FOX 25 BOSTON" tvg-name="FOX 25 BOSTON MA" tvg-logo="http://heatv.net/logo$/fox.png" group-title="FOX CHANNELS",FOX 25 BOSTON MA
-http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/443.ts
-#EXTINF:-1 tvg-ID="NBC 10 BOSTON" tvg-name="NBC 10 BOSTON MA" tvg-logo="http://heatv.net/logo$/nbc.png" group-title="NBC CHANNELS",NBC 10 BOSTON MA
-http://peeweeh.biz:8000/live/kellyrestreams/U4anm6Pp/480.ts
