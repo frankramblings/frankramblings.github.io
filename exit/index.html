@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kathy Kennedy Exit Interview Scorecard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ── Welcome Screen ── -->
+  <div class="welcome-screen" id="welcomeScreen">
+    <div class="welcome-content">
+      <p class="welcome-crawl">A Galactic Performance Review</p>
+      <h1 class="welcome-title">Kathleen Kennedy<br>Exit Interview</h1>
+      <p class="welcome-sub">Live Fill Scorecard</p>
+      <div class="welcome-divider"></div>
+      <p class="welcome-desc">8 Categories &middot; Weighted Scoring &middot; Final Verdict</p>
+      <button class="welcome-start" id="startBtn" type="button">Begin the Exit Interview</button>
+    </div>
+  </div>
+
+  <div class="app" id="mainApp" hidden>
+
+    <header class="header">
+      <p class="header-crawl">A Galactic Performance Review</p>
+      <h1 class="header-title">Kathleen Kennedy<br>Exit Interview</h1>
+      <p class="header-sub">Live Fill Scorecard</p>
+    </header>
+
+    <!-- ── One-at-a-time stage ── -->
+    <section class="stage" aria-label="Scoring">
+      <div class="progress">
+        <div class="progress-dots" id="progressDots" role="tablist"
+             aria-label="Category navigation"></div>
+        <p class="progress-text" id="progressText"></p>
+      </div>
+
+      <div class="card-stage" id="cardStage">
+        <!-- Single category rendered by app.js -->
+      </div>
+
+      <div class="stage-nav" id="stageNav">
+        <button class="nav-btn nav-prev" id="prevBtn" type="button">&#8592; Previous</button>
+        <button class="nav-btn nav-next" id="nextBtn" type="button">Next &#8594;</button>
+      </div>
+    </section>
+
+    <!-- ── Host Tools (collapsed by default, off-camera) ── -->
+    <section class="host-tools">
+      <button class="host-tools-toggle" id="hostToolsToggle" type="button"
+              aria-expanded="false" aria-controls="hostToolsBody">
+        <span>Host Tools</span>
+        <span class="ht-arrow">&#9662;</span>
+      </button>
+      <div class="host-tools-body" id="hostToolsBody" hidden>
+        <div class="ht-columns">
+          <div class="ht-col">
+            <h3 class="ht-heading">Segment Notes</h3>
+            <textarea id="hostNotes" class="ht-textarea"
+                      placeholder="Notes for the segment…"
+                      aria-label="Host notes" rows="4"></textarea>
+            <h3 class="ht-heading">Checklist</h3>
+            <div class="ht-checklist" id="checklist" role="group"
+                 aria-label="Segment checklist"></div>
+          </div>
+          <div class="ht-col">
+            <h3 class="ht-heading">Mode</h3>
+            <label class="toggle-row" for="weightedMode">
+              <input type="checkbox" id="weightedMode" role="switch"
+                     aria-label="Toggle weighted scoring">
+              <span class="toggle-track"><span class="toggle-thumb"></span></span>
+              <span class="toggle-label-text">Weighted Scoring</span>
+              <span class="mode-badge" id="modeIndicator">Equal Weight</span>
+            </label>
+            <div class="ht-debug">
+              <button class="ht-debug-toggle" id="debugToggle" type="button"
+                      aria-expanded="false" aria-controls="debugContent">
+                <span>Weighted Breakdown</span>
+                <span class="ht-arrow">&#9656;</span>
+              </button>
+              <div id="debugContent" hidden>
+                <div class="debug-scroll">
+                  <table class="debug-table">
+                    <thead>
+                      <tr><th>Category</th><th>Raw</th><th>Wt</th><th>Contrib</th><th>Sub</th></tr>
+                    </thead>
+                    <tbody id="debugTableBody"></tbody>
+                    <tfoot>
+                      <tr class="debug-foot">
+                        <td colspan="3"><strong>Weighted Avg</strong></td>
+                        <td colspan="2" id="debugWeightedAvg"><strong>&mdash;</strong></td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <h3 class="ht-heading" style="margin-top:.8rem">Actions</h3>
+            <div class="ht-actions">
+              <button class="btn-action btn-export" id="exportBtn" type="button">Export JSON</button>
+              <button class="btn-action btn-import" id="importBtn" type="button">Import JSON</button>
+              <button class="btn-action btn-reset" id="resetBtn" type="button">Reset All</button>
+            </div>
+            <input type="file" id="importFile" accept=".json" hidden aria-hidden="true">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ── Reveal Overlay ── -->
+  <div class="reveal-overlay" id="revealOverlay" hidden
+       role="dialog" aria-modal="true" aria-label="Final grade reveal">
+    <div class="reveal-bg" id="revealBackdrop"></div>
+    <div class="reveal-card">
+      <p class="reveal-pre">The Council's Verdict</p>
+      <div class="reveal-letter" id="revealGrade">&mdash;</div>
+      <div class="reveal-nums">
+        <span class="reveal-avg" id="revealScore">0.0 / 10</span>
+        <span class="reveal-tot" id="revealTotal">0.0 / 80</span>
+      </div>
+      <div class="reveal-mode" id="revealMode"></div>
+      <div class="reveal-hl">
+        <div class="reveal-hl-item reveal-best">
+          <span class="reveal-hl-tag">Strongest</span>
+          <span class="reveal-hl-val" id="revealHigh">&mdash;</span>
+        </div>
+        <div class="reveal-hl-item reveal-worst">
+          <span class="reveal-hl-tag">Weakest</span>
+          <span class="reveal-hl-val" id="revealLow">&mdash;</span>
+        </div>
+      </div>
+      <label class="reveal-rank-opt" id="revealRankOption" hidden>
+        <input type="checkbox" id="revealRankToggle">
+        Rank by weighted contribution
+      </label>
+      <p class="reveal-sentence" id="revealSummary"></p>
+      <button class="btn-hide" id="hideRevealBtn" type="button">Back to Scorecard</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
